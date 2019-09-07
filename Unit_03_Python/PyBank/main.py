@@ -47,8 +47,8 @@ with open(path, 'r') as budget_data:
     min_profit_change = min(profit_change)
 
     #Retrieving maximum and minimum profit change month 
-    max_profit_change_month = str(months[profit_change.index(max(profit_change))])
-    min_profit_change_month = str(months[profit_change.index(min(profit_change))])
+    max_profit_change_month = str(months[profit_change.index(max(profit_change))+1])
+    min_profit_change_month = str(months[profit_change.index(min(profit_change))+1])
 
     #Printing the final values
     print("FINANCIAL ANALYSIS")
@@ -72,7 +72,7 @@ with open(path, 'r') as budget_data:
     str7 = str(f"Greatest Decrease in Profits: {min_profit_change_month} (${min_profit_change})")
 
     #Uniting results table and writing line by line to text file
-    results = [str1 + "\n", str2 + "\n", str3 + "\n", str4 + "\n", str5 + "\n", str6 + "\n", str7 + "\n"] 
+    results = [str1 + "\n", str2 + "\n", str3 + "\n", str4 + "\n", str5 + "\n", str6 + "\n", str7 + "\n"]
     file_object.writelines(results)
     #Closing text file
     file_object.close()
