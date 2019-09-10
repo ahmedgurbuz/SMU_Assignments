@@ -21,41 +21,45 @@ with open(path, 'r') as election_data:
     #Looping through csv file with our handle
     for row in csvreader:
         
-        #Reading and adding every row in second column (profit/loss column) to profit list
+        #Reading and adding every row in first column (Voter ID column) to voter_id list
         voter_id.append(int(row[0]))
 
-        #Reading and adding every row in first column (months column) to months list
+        #Reading and adding every row in second column (County column) to county list
         county.append(str(row[1]))
 
+        #Reading and adding every row in third column (Candidate column) to candidate list
         candidate.append(str(row[2]))
         
-    
+    #Calculating total votes with the length of Voter ID column
     total_votes = len(voter_id)
 
-
+    #Creating a dictionary for Contestants
     votes_dict = {}
 
+    #Creating a loop for 
     for contestant in candidate:
         if contestant in votes_dict:
             votes_dict[contestant] += 1
         else:
             votes_dict[contestant] = 1
 
-    
+    #Sorting contestants 
     candidates_sorted = sorted(
         votes_dict.items(),
         key=lambda contestant: contestant[1], 
         reverse = True
     )
 
-
+    #Creating an empty list for percentage values
     percentages = []
 
+    #Calculating percentages and adding values to the percentages list with a loop
     for value in votes_dict.values():
         percent = (value/total_votes)*100
         percentages.append(percent)
 
 
+    #Printing results
     print("Election Results")
     print("-"*20)
     print(f"Total Votes: {total_votes}")
