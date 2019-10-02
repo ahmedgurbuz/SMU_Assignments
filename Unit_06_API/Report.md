@@ -23,7 +23,7 @@ Open Weather API is used for retrieving the real time values of temperature, hum
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-## ANALYSIS
+## ANALYSIS & CONCLUSIONS
 Geolocations of the cities are visualized with the scatter plot of longtitude vs. latitude (Figure 1) and we see that they are succesfully randomly generated. 
 
 ![](plots/lat_and_lon.png)
@@ -32,16 +32,17 @@ When we look at Figure 2, we see a trend that being located closer to the equato
 
 ![](plots/lat_and_max_temp.png) 
 
-When we look at the Figure 3, 
+When we look at Figure 3, we see that humidity is not affected from the geolocation and indifferent to the distance from equator. We see one city with a 300% humidity, which is an outlier. 
 
 ![](plots/lat_and_humidity.png) 
+
+When we look at the scatter plot in Figure 4, it is hard to talk any relationship or correlation between cloudiness and latitude. We can say that cloudiness is independent from latitude. 
+
 ![](plots/lat_and_cloudiness.png) 
+
+Looking at the Figure 5, we see that wind speed is increased in some cities far from equator. It is not generally true and does not apply to all the cities far from equator looking at the plot. There may be other climate factors affecting wind speed. 
+
 ![](plots/lat_and_windspeed.png)
-![](plots/lat_and_lon.png)
-
-## CONCLUSIONS & RECOMMENDATIONS
-
-According to data 
 
 
 
