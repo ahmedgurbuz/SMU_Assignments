@@ -1,16 +1,15 @@
 # Mission to Mars
-Flask web application that scrapes various websites for data related to the Mars Mission and displays the information in a single HTML page.
+Various websites for including information and image data related to the Mars scraped, collected into MongoDB database and then displayed in a HTML page using Flask app.
 
-## Scraping
 ### NASA Mars News
-Script collects the latest News Title and Paragraph Text.
+Latest news title and text paragraph were scraped from [NASA web page](https://mars.nasa.gov/news/ "NASA web page") 
 ### JPL Mars Space Images - Featured Image
-Script finds the image url for the current Featured Mars Image and assigns the url string of the full size image.
+Featured Mars Image (full size) url was scraped from related page of NASA.
 ### Mars Weather
-Script visits the Mars Weather twitter account and scrapes the latest Mars weather tweet.
+[Mars Weather Twitter account](https://twitter.com/marswxreport "Mars Weather Twitter account") was scraped and the latest tweet retrieved to obtain the Mars weather data.
 ### Mars Facts
-Script visit the Mars Facts webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
+[Mars Facts webpage](https://space-facts.com/mars/ "Mars Facts webpage") was scraped and the table containing facts about the planet retrieved with the help of Pandas library in Python.
 ### Mars Hemispheres
-Script visits the USGS Astrogeology site and obtains the full resolution images for each of Mar's hemispheres.
+[USGS Astrogeology web page](https://astrogeology.usgs.gov "USGS Astrogeology web page") was scraped and the full resolution images for each of Mars hemispheres were obtained. 
 
 <img src="screenshot02.JPG">
