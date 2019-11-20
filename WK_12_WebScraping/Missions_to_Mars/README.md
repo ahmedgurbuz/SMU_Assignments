@@ -13,4 +13,4 @@ Script visit the Mars Facts webpage and uses Pandas to scrape the table containi
 ### Mars Hemispheres
 Script visits the USGS Astrogeology site and obtains the full resolution images for each of Mar's hemispheres.
 
-<img src="screenshot02.JPG">]
+<img src="screenshot02.JPG">
