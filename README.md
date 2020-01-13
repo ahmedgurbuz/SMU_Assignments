@@ -1,7 +1,7 @@
-# Southern Methodist University - Data Science Bootcamp Assignments
-This repository includes completed assignments for the [Data Science Bootcamp at the Southern Methodist University](https://techbootcamps.smu.edu/data/curriculum/ "Data Science Bootcamp at the Southern Methodist University")
+# Southern Methodist University - Data Science Certification Program Assignments
+This repository includes completed assignments for the [Data Science Certification Program at the Southern Methodist University](https://techbootcamps.smu.edu/data/curriculum/ "Data Science Certification Program at the Southern Methodist University")
 
-An intensive 24-week long boot camp. Skills learned consisted of
+An intensive 24-week long certification program. Skills learned consisted of
 
 * Advanced Excel (Pivot Tables, VBA Scripting)
 * Fundamental Statistics (Modeling, Forecasting)
