@@ -24,5 +24,5 @@ User Type (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Membe
 Gender (Zero=unknown; 1=male; 2=female)<br>
 Year of Birth<br>
 
-### Project is published at Tableau Public.
-<a href="https://public.tableau.com/profile/ahmed.gurbuz#!/vizhome/CitiBikeAnalysis_15801011256910/Story1"><img src="dashboard.jpg" alt="CitiBike" target = "_blank"></a>
+### Project is published at  [Tableau Public](https://public.tableau.com/profile/ahmed.gurbuz#!/vizhome/CitiBikeAnalysis_15801011256910/Story1 "Tableau Public")
+<img src="dashboard.jpg" alt="Citi Bike Dashboard">
