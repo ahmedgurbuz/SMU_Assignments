@@ -25,4 +25,4 @@ Gender (Zero=unknown; 1=male; 2=female)<br>
 Year of Birth<br>
 
 ### Project is published at  [Tableau Public](https://public.tableau.com/profile/ahmed.gurbuz#!/vizhome/CitiBikeAnalysis_15801011256910/Story1 "Tableau Public")
-<img src="dashboard.jpg" alt="Citi Bike Dashboard">
+<img src="dashboard.JPG" alt="Citi Bike Dashboard">
