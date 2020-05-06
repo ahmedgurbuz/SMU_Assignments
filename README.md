@@ -1,4 +1,4 @@
-# Southern Methodist University - Data Science Certification Program Assignments
+# Southern Methodist University - Data Science Certificate Program Assignments
 This repository includes completed assignments for the [Data Science Certification Program at the Southern Methodist University](https://techbootcamps.smu.edu/data/curriculum/ "Data Science Certification Program at the Southern Methodist University")
 
 An intensive 24-week long certification program. Skills learned consisted of
